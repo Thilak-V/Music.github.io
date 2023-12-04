@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding :0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://user-images.githubusercontent.com/13468728/233847739-219cb494-c265-4554-820a-bd3424c59065.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}  
+
+section{
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 1px solid;
+   border-radius: 5%;
+   padding: 40px;
+    backdrop-filter:blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1 {
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+select, button {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#playlist {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#playlist li {
+    border-bottom: 1px solid #dddddd5a;
+    padding: 10px;
+    color: #333;
+}
